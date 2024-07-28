@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Turnout Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">Voter Turnout vs Campaign Budget</div>
+    <div id="container">
+        <div id="left-box"></div>
+        <div id="right-box">
+            <div id="right-textbox">This chart shows the voter turnout compared to the campaign budget for each year from 2000 to 2020 as a scatterplot.</div>
+            <div id="right-buttons">
+                <button id="filter1-btn">Filter 1</button>
+                <button id="filter2-btn">Filter 2</button>
+                <button id="filter3-btn">Filter 3</button>
+            </div>
+        </div>
+    </div>
+    <div id="buttons">
+        <button id="introduction-btn">Introduction</button>
+        <button id="page1-btn" class="active">Voter Turnout vs Campaign Budget</button>
+        <button id="page4-btn">Voter Turnout by Age Group</button>
+        <button id="page6-btn">Voter Turnout by Ethnicity</button>
+        
+    </div>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3-annotation.susielu.com/dist/d3-annotation.min.js"></script>
+    <script src="Page1.js"></script>
+    <script src="Page2.js"></script>
+    <script src="Page3.js"></script>
+    <script src="Page4.js"></script>
+    <script src="Page5.js"></script>
+    <script src="Page6.js"></script>
+    <script src="Introduction.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
